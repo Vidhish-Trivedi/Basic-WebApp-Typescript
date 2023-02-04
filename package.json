@@ -1,0 +1,21 @@
+{
+  "name": "basic-webapp-typescript",
+  "version": "1.0.0",
+  "description": "Run: npx parcel index.html",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vidhish-Trivedi/Basic-WebApp-Typescript.git"
+  },
+  "author": "Vidhish Trivedi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Vidhish-Trivedi/Basic-WebApp-Typescript/issues"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^7.6.0"
+  }
+}
