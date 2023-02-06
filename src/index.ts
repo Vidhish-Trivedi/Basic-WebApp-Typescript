@@ -7,6 +7,6 @@ const company_1 = new Company();
 console.log(user_1);
 console.log(company_1);
 
-// const map_1 = new google.maps.Map(document.getElementById('map'), {zoom: 1, center: {lat: 0, lng: 0}});
 const map_1 = new CustomMap("map");
 map_1.addMarker(user_1);
+map_1.addMarker(company_1);

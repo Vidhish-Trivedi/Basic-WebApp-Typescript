@@ -1,0 +1,6 @@
+DEPENDENCY INVERSSION:
+    If a class, say User, wants to work with another class, say CustomMap,
+    then User needs to satisfy the requirenments of CustomMap.
+    
+    TS will implicitly check if a class satisfies the specified interface to be an argument to a method.
+    
