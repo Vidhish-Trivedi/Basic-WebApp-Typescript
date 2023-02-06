@@ -27,5 +27,10 @@ export class Company{
 
     public getLocation(): {lat: number, lng: number} {
         return(this.location);
-    }
+    };
+
+    // Method to display content on InfoWindow class.
+    public markerContent(): string {
+        return(`<h2>Company: ${this.getName()}</h2><h3>Phrase: ${this.getCatchPhrase()}</h3><h4>Latitude: ${this.getLocation().lat}</h4><h4>Longitude: ${this.getLocation().lng}</h4>`);
+    };
 };

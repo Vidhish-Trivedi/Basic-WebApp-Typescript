@@ -21,5 +21,10 @@ export class User{
 
     public getLocation(): {lat: number, lng: number} {
         return(this.location);
-    }
+    };
+
+    // Method to display content on InfoWindow class.
+    public markerContent(): string {
+        return(`<h2>User: ${this.getName()}</h2><h4>Latitude: ${this.getLocation().lat}</h4><h4>Longitude: ${this.getLocation().lng}</h4>`);
+    };
 };
