@@ -1,6 +1,6 @@
 import {faker} from "@faker-js/faker";
 
-// Can use "export default" also. Then imoprt User from "./User" ..... {In index.ts}.
+// Can use "export default" also. Then imoprt User from "./Company" ..... {In index.ts}.
 export class Company{
     private name: string;
     private phrase: string;
