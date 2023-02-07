@@ -4,3 +4,6 @@ DEPENDENCY INVERSSION:
     
     TS will implicitly check if a class satisfies the specified interface to be an argument to a method.
     
+    NOTE:
+        TS also supports the "implements" clause... (just like Java).  // Better practice to use this.
+        

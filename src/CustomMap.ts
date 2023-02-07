@@ -1,5 +1,5 @@
 // Any class which implements/satisfies the Mappable interface can be an argument to addMarker() method.
-interface Mappable{
+export interface Mappable{
     getLocation(): {lat: number, lng: number};
     markerContent(): string;
 };

@@ -1,7 +1,7 @@
 import {faker} from "@faker-js/faker";
+import {Mappable} from "./CustomMap"; 
 
-// Can use "export default" also. Then imoprt User from "./Company" ..... {In index.ts}.
-export class Company{
+export class Company implements Mappable{
     private name: string;
     private phrase: string;
     private location: {
